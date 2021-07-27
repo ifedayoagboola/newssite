@@ -72,11 +72,6 @@ const Comments = () => (
         </form>
       )}
     </Formik>
-    <div>
-      <h3>See all comments below:</h3>
-      <h5 className="comment"></h5>
-      <h4></h4>
-    </div>
   </div>
 );
 

@@ -2,7 +2,7 @@ import React from "react";
 import DetailsScreen from "./pages/DetailsScreen";
 import HomeScreen from "./pages/HomeScreen";
 
-import { Route, Switch, Link } from "react-router";
+import { Route, Switch } from "react-router";
 
 function App() {
   return (
