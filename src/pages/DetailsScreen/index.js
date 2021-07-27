@@ -19,7 +19,6 @@ const DetailsScreen = ({ match }) => {
     };
     fetchProducts();
   }, []);
-  console.log({ products });
   return (
     <div className="details">
       <h1>Details Page</h1>

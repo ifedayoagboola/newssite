@@ -17,7 +17,6 @@ const HomeScreen = () => {
     };
     fetchProducts();
   }, []);
-  console.log(products);
   return (
     <div className="container">
       <div className="products">
