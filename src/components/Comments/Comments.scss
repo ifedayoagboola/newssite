@@ -1,0 +1,44 @@
+#root
+  > div
+  > div
+  > div
+  > div:nth-child(3)
+  > form
+  > input[type="name"]:nth-child(1) {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid orchid;
+  width: 80%;
+  margin: 2rem 1rem;
+}
+#root
+  > div
+  > div
+  > div
+  > div:nth-child(3)
+  > form
+  > input[type="email"]:nth-child(2) {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid orchid;
+  width: 80%;
+  margin: 2rem 1rem;
+}
+textarea {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid orchid;
+  width: 80%;
+  margin: 1rem;
+}
+#root > div > div > div > div:nth-child(3) > form > button {
+  width: 150px;
+  padding: 0.5rem;
+  margin: 1rem;
+}
+.comments {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

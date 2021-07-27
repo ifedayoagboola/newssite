@@ -1,10 +1,19 @@
 import React from "react";
+import DetailsScreen from "./pages/DetailsScreen";
 import HomeScreen from "./pages/HomeScreen";
+
+import { Route, Switch, Link } from "react-router";
 
 function App() {
   return (
     <div className="App">
-      <HomeScreen />
+      <Switch>
+        <Route exact path="/">
+          <HomeScreen />
+        </Route>
+
+        <Route exact path="/articles/:id" component={DetailsScreen} />
+      </Switch>
     </div>
   );
 }
