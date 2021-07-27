@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./HomeScreen.scss";
-import ProductCard from "../../components/ProductCard";
+import Feed from "../../components/Feed";
 
 const HomeScreen = () => {
   const [products, setProducts] = useState([]);
@@ -23,7 +23,7 @@ const HomeScreen = () => {
       <div className="products">
         {products.map((product) => (
           <div key={product.i}>
-            <ProductCard product={product} />
+            <Feed product={product} />
           </div>
         ))}
       </div>

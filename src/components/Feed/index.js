@@ -1,7 +1,7 @@
 import React from "react";
-import "./ProductCard.scss";
+import "./Feed.scss";
 
-const ProductCard = ({ product }) => {
+const Feed = ({ product }) => {
   return (
     <div className="card">
       <div className="image">
@@ -24,4 +24,4 @@ const ProductCard = ({ product }) => {
   );
 };
 
-export default ProductCard;
+export default Feed;
